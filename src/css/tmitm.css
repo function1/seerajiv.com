@@ -558,7 +558,7 @@ section#press {
 @media all and (max-width: 991px) {
     #sg .gallery {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-gap: 0;
         grid-template-areas:
@@ -636,7 +636,23 @@ section#press {
 
 
 
+section#podcasts {
+    background-color: black;
+    color: white;
 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem;
+
+}
+
+#podcasts div img {
+    width: 11rem;
+    margin: 2rem;
+}
 
 
 
