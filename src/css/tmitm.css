@@ -87,7 +87,7 @@ header#carousel {
 
 
 #carousel-2 {
-    background-image: url("../images/rajiv-hero-2.png"); /* The image used */
+    background-image: url("../images/rajiv-hero-2.jpg"); /* The image used */
     background-color: #416297; /* Used if the image is unavailable */
     height: 700px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -186,7 +186,7 @@ section#intro {
 
 
 section#dc {
-    background-image: url("../images/capitol-bldg-blue.png"); /* The image used */
+    background-image: url("../images/capitol-bldg-blue.jpg"); /* The image used */
     background-color: #416297; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -337,7 +337,7 @@ section#quotes {
 }
 @media all and (min-width: 1281px) {
     #quotes {
-        background-image: url("../images/rajiv-testimonials-section-with-colors.png"); /* The image used */
+        background-image: url("../images/rajiv-testimonials-section-with-colors.jpg"); /* The image used */
         height: 950px; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
