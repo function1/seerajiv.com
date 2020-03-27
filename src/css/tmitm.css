@@ -1,18 +1,49 @@
+@font-face {
+    font-family: 'open_sans_condensedbold';
+    src: url('../fonts/opensanscondensed_bold_macroman/OpenSans-CondBold-webfont.eot');
+    src: url('../fonts/opensanscondensed_bold_macroman/OpenSans-CondBold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensanscondensed_bold_macroman/OpenSans-CondBold-webfont.woff') format('woff'),
+    url('../fonts/opensanscondensed_bold_macroman/OpenSans-CondBold-webfont.ttf') format('truetype'),
+    url('../fonts/opensanscondensed_bold_macroman/OpenSans-CondBold-webfont.svg#open_sans_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'open_sanscondensed_light';
+    src: url('../fonts/opensanscondensed_light_macroman/OpenSans-CondLight-webfont.eot');
+    src: url('../fonts/opensanscondensed_light_macroman/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensanscondensed_light_macroman/OpenSans-CondLight-webfont.woff') format('woff'),
+    url('../fonts/opensanscondensed_light_macroman/OpenSans-CondLight-webfont.ttf') format('truetype'),
+    url('../fonts/opensanscondensed_light_macroman/OpenSans-CondLight-webfont.svg#open_sanscondensed_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'open_sansCnLtIt';
+    src: url('../fonts/opensanscondensed_lightitalic_macroman/OpenSans-CondLightItalic-webfont.eot');
+    src: url('../fonts/opensanscondensed_lightitalic_macroman/OpenSans-CondLightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensanscondensed_lightitalic_macroman/OpenSans-CondLightItalic-webfont.woff') format('woff'),
+    url('../fonts/opensanscondensed_lightitalic_macroman/OpenSans-CondLightItalic-webfont.ttf') format('truetype'),
+    url('../fonts/opensanscondensed_lightitalic_macroman/OpenSans-CondLightItalic-webfont.svg#open_sansCnLtIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 body {
-    font-family:  'Open Sans Condensed', sans-serif;
+    font-family:  'open_sanscondensed_light', sans-serif;
     background-color: #1b1b1b;
 }
 
 h1 {
-    font-family:  'open_sans_condensedbold', 'Open Sans Condensed', sans-serif;
-    /*font-family:  'Open Sans Condensed', sans-serif;*/
-    /*font-weight: 800;*/
+    font-family:  'open_sans_condensedbold', 'open_sanscondensed_light', sans-serif;
 }
 h2, h3, h4, h5, h6 {
-    font-family:  'open_sans_condensedbold', 'Open Sans Condensed', sans-serif;
-    /*font-family:  'Open Sans Condensed', sans-serif;*/
-    /*font-weight: 800;*/
+    font-family:  'open_sans_condensedbold', 'open_sanscondensed_light', sans-serif;
 }
 h2 {
     font-style: normal;
@@ -91,7 +122,7 @@ header#carousel {
 
 
 #carousel-2 {
-    background-image: url("../images/rajiv-hero-2.png"); /* The image used */
+    background-image: url("../images/rajiv-hero-2.jpg"); /* The image used */
     background-color: #416297; /* Used if the image is unavailable */
     height: 700px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -141,7 +172,7 @@ section#intro {
     color: white;
 }
 #intro p {
-    font-family:  'open_sans_condensedbold', 'Open Sans Condensed', sans-serif;
+    font-family:  'open_sans_condensedbold', 'open_sanscondensed_light', sans-serif;
     font-size: calc(12px + 2.0vw);
     font-weight: bolder;
     text-align: right;
@@ -190,7 +221,7 @@ section#intro {
 
 
 section#dc {
-    background-image: url("../images/capitol-bldg-blue.png"); /* The image used */
+    background-image: url("../images/capitol-bldg-blue.jpg"); /* The image used */
     background-color: #416297; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -204,11 +235,12 @@ section#dc {
     text-align: center;
 }
 #dc p {
-    font-family:  'open_sans_condensedbold', 'Open Sans Condensed', sans-serif;
+    font-family:  'open_sans_condensedbold', 'open_sanscondensed_light', sans-serif;
     font-size:calc(12px + 2.1vw);
     line-height:calc(12px + 3.5vw);
     text-align: center;
     margin: 0 9%;
+    padding-bottom: 100px;
 }
 
 #dc a {color: white;
@@ -240,7 +272,7 @@ section#dc {
     text-align: center;
     width: 10rem;
     height: 10rem;
-    font-family:  'open_sans_condensedbold', 'Open Sans Condensed', sans-serif;
+    font-family:  'open_sans_condensedbold', 'open_sanscondensed_light', sans-serif;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px; /* future proofing */
@@ -257,7 +289,7 @@ section#dc {
     line-height: 4.5rem;
     font-weight: 800;
     margin-bottom: .6rem;
-    font-family:  'open_sans_condensedbold', 'Open Sans Condensed', sans-serif;
+    font-family:  'open_sans_condensedbold', 'open_sanscondensed_light', sans-serif;
 
 }
 
@@ -325,7 +357,7 @@ section#quotes {
     padding: 2rem 4rem;
 }
 #quotes p {
-    font-family: 'open_sans_condensedbold', 'Open Sans Condensed', sans-serif;
+    font-family: 'open_sans_condensedbold', 'open_sanscondensed_light', sans-serif;
     font-size: 2rem;
     line-height: 2.7rem;
 }
@@ -340,7 +372,7 @@ section#quotes {
 }
 @media all and (min-width: 1281px) {
     #quotes {
-        background-image: url("../images/rajiv-testimonials-section-with-colors.png"); /* The image used */
+        background-image: url("../images/rajiv-testimonials-section-with-colors.jpg"); /* The image used */
         height: 950px; /* You must set a specified height */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
@@ -406,7 +438,7 @@ section#upcoming {
     padding: 1.5rem 2rem
 }
 #upcoming .rsvp a {
-    font-family:  'open_sans_condensedbold', 'Open Sans Condensed', sans-serif;
+    font-family:  'open_sans_condensedbold', 'open_sanscondensed_light', sans-serif;
     font-size: 1.9rem;
     text-decoration: none;
     color: white;
@@ -551,7 +583,7 @@ section#press {
         min-width: 330px;
         max-width: 330px;
         height: auto;
-        max-height: 500px;
+        /*max-height: 500px;*/
         padding-bottom: 40px;
     }
 }
@@ -723,7 +755,7 @@ section#newsletter {
 #newsletter .form-group button {
     background-color: black;
     border: solid white 3px;
-    font-family:  'open_sans_condensedbold', 'Open Sans Condensed', sans-serif;
+    font-family:  'open_sans_condensedbold', 'open_sanscondensed_light', sans-serif;
     font-size: 1.7rem;
     line-height: 61px;
     text-align: center;
@@ -750,7 +782,7 @@ section#cyc {
     padding-bottom: 3rem;
 }
 #cyc a {
-    font-family:  'open_sans_condensedbold', 'Open Sans Condensed', sans-serif;
+    font-family:  'open_sans_condensedbold', 'open_sanscondensed_light', sans-serif;
     font-size: 1.7rem;
     color: white;
 }
