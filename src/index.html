@@ -209,14 +209,55 @@
         </div>
         <div class="newsletter-form">
             <h2>Sign up for my newsletter</h2>
-            <form  class="js-cm-form" id="subForm" action="https://funnyindian.substack.com/api/v1/free?nojs=true" method="post"></form>            
+            <form
+              className="js-validate mb-2"
+              action="https://funnyindian.substack.com/api/v1/free?nojs=true"
+              method="post"
+            >
+              <h5 className="text-white font-weight-bold mb-3">Subscribe</h5>
+              <div className="form-row">
+                <div className="col">
+                  <div className="js-form-message">
+                    <label className="sr-only" htmlFor="subscribeSrEmail">
+                      Email address
+                    </label>
+                    <div className="input-group">
+                      <input
+                        type="hidden"
+                        name="first_url"
+                        value="https://funnyindian.substack.com/"
+                      />
+                      <input type="hidden" name="first_referrer" />
+                      <input
+                        type="hidden"
+                        name="current_url"
+                        value="https://rajivsatyal.com/"
+                      />
+                      <input type="hidden" name="current_referrer" />
+                      <input type="hidden" name="referral_code" />
+                      <input type="hidden" name="source" value="embed" />
+                      <input
+                        type="email"
+                        className="form-control"
+                        name="email"
+                        id="subscribeSrEmail"
+                        placeholder="Email address"
+                        aria-label="Email address"
+                        required
+                        data-msg="Please enter a valid email address."
+                      />
+                    </div>
+                  </div>
+                </div>
+        <!--
             <span class="form-group">
                     <label id="email-address-label">Email</label>
                     <input  placeholder="Your Email" aria-label="Email" class="js-cm-email-input form-control" id="fieldEmail" maxlength="200" name="cm-tkttdl-tkttdl" required="" type="email">
                 </span>
                 <span class="form-group">
                     <button type="submit">Subscribe</button>
-                </span>
+                </span> 
+            -->
             </form>
 
             <h2>Bring the show to your town</h2>
